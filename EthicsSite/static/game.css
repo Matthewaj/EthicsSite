@@ -1,0 +1,26 @@
+
+#game_picture {
+    display: inline-block;
+}
+
+#game_question {
+    display: inline-block;
+}
+
+#game {
+    display: none;
+}
+
+#quiz_options {
+    list-style: none;
+}
+
+#quiz_options li button {
+    margin-left: 40%;
+}
+
+#quiz_options li button {
+    left: 50%;
+    margin-top: 2em;
+    display: block;
+}
