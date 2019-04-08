@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/static/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/template.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='template.css') }}">
     <meta charset="UTF-8">
-    <title>Ethics Site</title>
+    <title>Everyday Ethics</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Ethics</a>
+      <a class="navbar-brand" href="/">Everyday Ethics</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
               aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -16,14 +16,8 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="/game">Game</a>
           </li>
         </ul>
       </div>
@@ -33,14 +27,7 @@
       <div class="starter-template">
         <h1>Ethics</h1>
         <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie dui leo, sit amet elementum
-            dolor blandit sed. Donec iaculis ornare enim id vulputate. Curabitur volutpat tincidunt mattis. Nullam eget
-            fringilla lacus. Nam ligula metus, mattis non feugiat vehicula, scelerisque in arcu. Sed varius, erat
-            volutpat tincidunt placerat, ipsum augue auctor dolor, pellentesque tristique libero libero non nisi.
-            Aenean ut dolor in nisl tempus laoreet a in ligula. Vivamus ligula eros, euismod vel nisl nec, fringilla
-            placerat ligula. Sed in molestie nisi. Ut pretium auctor leo, eget mollis ex rutrum iaculis. Nulla dictum
-            est quis neque pretium, eu fringilla est tempor. Curabitur lobortis, ex ac ultrices finibus, augue enim
-            gravida sapien, ac luctus justo elit sed eros.
+            Ethics is apart of our everyday life. Why not take a quiz to test your ethics?
         </p>
       </div>
     </main>
